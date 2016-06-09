@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Paweł Biernat</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <style>
+            html, body, main, section, header, ul, p, h1, h2, h3 {
+              font-family: 'Calibri', 'Open Sans', 'sans-serif';
+              font-size: 14px;
+              margin: 0; padding: 0;
+              display: block;
+            }
+            
+            a {
+              color: #C00000;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7B0796;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h1 {
+              text-transform: uppercase;
+              font-size:
+            }
+            
+            h2 {
+              text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3, .tenure {
+              font-size: 1.5em;
+              font-weight: 300;
+            }
+            
+            h3 {
+              margin-top: 0;
+              width: 66%;
+              float: left;
+            }
+            
+            table {
+              width: 100%;
+              text-transform: uppercase;
+              font-size: 1.3em;
+            }
+            
+            td:first-child {
+              text-align: right;
+              color: #A9A9A9;
+              letter-spacing: 5px;
+              font-weight: bold;
+            }
+            
+            td:last-child {
+              text-align: justify; /* HTML justification sucks, but in this case... */
+            }
+            
+            hr {
+              display: none;
+            }
+            
+            main {
+              padding: 15px;
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            section {
+              margin-top: 1em;
+            }
+            
+            section > div {
+              margin-top: 1em;
+              overflow: hidden; /* Clear floated children */
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            ul {
+              clear: both;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            p, li {
+              text-align: justify;
+            }
+            
+            .tenure {
+              float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+            }
+            
+            span.keywords {
+              font-size: 10px;
+              color: #B16666;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 1em;
+            }
+            
+            h1 {
+              float: left;
+            }
+            
+            h1, h2, .label {
+              font-size: 2.5em;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
+            }
+            
+            #contact {
+             clear: both;
+             float: right;
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 10px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #DADADA;
+            }
+            
+            .label {
+              float: right;
+              color: #DADADA;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                 <h1>Paweł <span style="color: #C00000;">Biernat</span></h1>
+ <span class="label">Programmer &amp; Mathematician</span>
+
+                <p id="contact"> <span class="email"><a href="mailto:pawel.biernat@mail.com">pawel.biernat@mail.com</a></span>
+
+                    <span
+                    class="phone">0049 151 66297314</span>
+                </p>
+            </header>
+            <section id="summary">I am in equal parts a programmer and a mathematician. I am applying my
+                knowledge in mathematics to build better software. Designing algorithms,
+                then implementing and optimizing them is a part of my daily routine. I
+                am very enthusiastic about learning new programming languages.</section>
+            <hr>
+            <section id="skills">
+                <header> <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
+
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 25%;">Simulations</td>
+                            <td class="keywords">Julia Mathematica Fortran C</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Analysis</td>
+                            <td class="keywords">Mathematics</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Data presentation</td>
+                            <td class="keywords">Gnuplot Pyxplot Julia Mathematica R</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Work organization</td>
+                            <td class="keywords">Emacs GNU/Linux Github Pomodoro</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>employment</h2>
+
+                </header>
+                <div>
+                     <h3><em>Postdoctoral Researcher</em>,
+              <a href="http://www.math.uni-bonn.de/people/donninge/group.html">Bonn University, Department of Mathematics</a>
+              </h3>
+ <span class="tenure">2014-11 — Present</span>
+
+                    <p>
+                        <p>I am a part of Roland Donningers research group where I apply numerical
+                            and analytical methods to solve partial differential equations.</p>
+                    </p>
+                    <ul>
+                        <li>Designing algorithms to deal with singular solutions to partial differential
+                            equations.</li>
+                        <li>Developing packages for Julia that simulate solutions to partial differential
+                            equations.</li>
+                    </ul> <span class="keywords">Julia Mathematica </span> 
+                </div>
+                <div>
+                     <h3><em>Intern</em>,
+              Motorola
+              </h3>
+ <span class="tenure">2007-07 — 2007-08</span>
+
+                    <p>
+                        <p>Implemented and performed automatic tests for Shortwave radios</p>
+                    </p>
+                    <ul>
+                        <li>Managed to perform all due tasks in half the time I was assigned.</li>
+                        <li>Spent the rest of the working ours learning Lisp</li>
+                    </ul> <span class="keywords">Quality assurance </span> 
+                </div>
+                <div>
+                     <h3><em>Researcher</em>,
+              Jagiellonian University
+              </h3>
+ <span class="tenure">2005-01 — 2014-01</span>
+
+                    <p>
+                        <p>Ocasional short-term contracts with my Alma Mater.</p>
+                    </p>
+                    <ul>
+                        <li>Assisted my advisor in his research.</li>
+                        <li>Worked on a big (12k lines of code) Fortran project.</li>
+                    </ul> <span class="keywords">C Fortran Mathematica </span> 
+                </div>
+            </section>
+            <hr>
+            <section id="projects">
+                <header> <span class="fa fa-lg fa-star"></span> 
+                     <h2>projects</h2>
+
+                </header>
+                <div>
+                     <h3><em>Creator</em>,
+          <a href="https://github.com/pwl/DASSL.jl">DASSL.jl</a>
+          </h3>
+ <span class="tenure">2014-03 — Present</span>
+
+                    <p>A package to solve algebraic differential equations.</p> <span class="keywords">Julia simulation cross-platform Github </span> 
+                </div>
+                <div>
+                     <h3><em>Contributor</em>,
+          <a href="https://github.com/JuliaLang/ODE.jl">ODE.jl</a>
+          </h3>
+ <span class="tenure">2014-05 — Present</span>
+
+                    <p>An official Julia package to solve differential equations.</p> <span class="keywords">Julia simulation cross-platform Github </span> 
+                </div>
+                <div>
+                     <h3><em>Creator</em>,
+          <a href="https://github.com/pwl/MovcolN.jl">MovcolN.jl</a>
+          </h3>
+ <span class="tenure">2014-05 — 2014-05</span>
+
+                    <p>A Julia package implementing a moving collocation method.</p> <span class="keywords">Julia simulation cross-platform Github </span> 
+                </div>
+                <div>
+                     <h3><em>Contributor</em>,
+          <a href="https://github.com/fpde/fpde2">fpde</a>
+          </h3>
+ <span class="tenure">2011-06 — 2013-06</span>
+
+                    <p>An old project of mine, around 12000 lines of Fortran code.</p> <span class="keywords">fortran simulation cross-platform Github </span> 
+                </div>
+            </section>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                     <h2>education</h2>
+
+                </header>
+                <div>
+                     <h3><em>PhD (magna cum laude)</em>, Jagiellonian University, Faculty of Mathematics and Computer Science</h3>
+ <span class="tenure">2010-10 — 2014-10</span>
+
+                    <p>Even before graduating I gained interest in Mathematics. After securing
+                        a prestigious scholarship I started graduate studies in Mathematics. My
+                        thesis was supervised by Piotr Bizoń (Jagiellonian University) and Juan
+                        Velazquez (Bonn University).</p>
+                </div>
+                <div>
+                     <h3><em>MSC</em>, Jagiellonian University, Faculty of Physics</h3>
+ <span class="tenure">2005-10 — 2010-09</span>
+
+                    <p>Master degree in theoretical physics at the Faculty of Physics. Thesis
+                        supervised by Piotr Bizoń, topic: Heat flow for harmonic maps between spheres.</p>
+                </div>
+            </section>
+            <hr>
+            <section id="writing">
+                <header> <span class="fa fa-lg fa-pencil"></span> 
+                     <h2>writing</h2>
+
+                </header>
+                <div>
+                     <h3><em><a href="http://arxiv.org/abs/1601.01831">Type II blow-up mechanism for supercritical harmonic map heat flow</a></em>,
+            arXiv</h3>
+ <span class="tenure">2016</span>
+
+                </div>
+                <div>
+                     <h3><em><a href="http://dx.doi.org/10.1088/0951-7715/28/1/167">Non-self-similar blow-up in the heat flow for harmonic maps in higher dimensions</a></em>,
+            Nonlinearity</h3>
+ <span class="tenure">2015</span>
+
+                    <p>A paper where I simulate the solution to a partial differential equation.</p>
+                </div>
+                <div>
+                     <h3><em><a href="http://dx.doi.org/10.1007/s00220-015-2404-y">Generic Self-Similar Blowup for Equivariant Wave Maps and Yang–Mills Fields in Higher Dimensions</a></em>,
+            Communications in Mathematical Physics</h3>
+ <span class="tenure">2015</span>
+
+                </div>
+                <div>
+                     <h3><em><a href="http://dx.doi.org/10.1088/0951-7715/24/8/005">Shrinkers, expanders, and the unique continuation beyond generic blowup in the heat flow for harmonic maps between spheres</a></em>,
+            arXiv</h3>
+ <span class="tenure">2011</span>
+
+                </div>
+            </section>
+            <hr>
+            <section id="recognition">
+                <header> <span class="fa fa-lg fa-trophy"></span> 
+                     <h2>recognition</h2>
+
+                </header>
+                <div>
+                     <h3><em>Geometry and Topology in Physical Models Scholarship</em>, Foundation for Polish Science</h3>
+ <span class="tenure">2010</span>
+
+                </div>
+            </section>
+            <hr>
+            <section id="references">
+                <header> <span class="fa fa-lg fa-thumbs-o-up"></span> 
+                     <h2>references</h2>
+
+                </header>
+                <div>
+                     <h3><em>Roland Donninger</em></h3>
+
+                </div>
+                <div>
+                     <h3><em>Piotr Bizoń</em></h3>
+
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>
